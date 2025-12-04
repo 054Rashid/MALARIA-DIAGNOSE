@@ -16,23 +16,23 @@ This project loads the Malaria dataset from TensorFlow Datasets (TFDS), preproce
 
 
 
-🚀 Features
+## 🚀 Features
 
-•	Automated dataset loading from TFDS: malaria dataset
-•	Balanced image augmentation (flip, brightness, contrast)
-•	Transfer Learning using MobileNetV2 (ImageNet weights)
-•	Two-stage optimized training:
+-	Automated dataset loading from TFDS: malaria dataset
+-	Balanced image augmentation (flip, brightness, contrast)
+-	Transfer Learning using MobileNetV2 (ImageNet weights)
+-	Two-stage optimized training:
     o	Stage 1 – Train top layers
     o	Stage 2 – Fine-tune deeper layers
-•	Generates:
+-	Generates:
     o	Confusion Matrix
     o	ROC Curve
     o	Accuracy/Loss graphs
     o	Prediction visualization
-•	Auto-saves:
+-	Auto-saves:
     o	best_model.h5
     o	malaria_detector_final.h5
-•	Fully compatible with Google Colab and local GPU
+-	Fully compatible with Google Colab and local GPU
 
 
 📂 Project Structure
