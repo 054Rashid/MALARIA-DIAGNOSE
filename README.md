@@ -81,7 +81,7 @@ The script will automatically:
 -	Save best/final models
 -	Generate visualizations
 
-📘 What Happens Inside the Script?
+## 📘 What Happens Inside the Script?
 1. Data Pipeline
 -	Dataset: 27,558 images
 -	Splits:
