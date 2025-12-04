@@ -83,32 +83,32 @@ The script will automatically:
 
 📘 What Happens Inside the Script?
 1. Data Pipeline
-•	Dataset: 27,558 images
-•	Splits:
-    o	80% Training
-    o	10% Validation
-    o	10% Testing
+-	Dataset: 27,558 images
+-	Splits:
+    -	80% Training
+    -	10% Validation
+    -	10% Testing
 2. Model Architecture
-•	MobileNetV2 (ImageNet pretrained)
-•	Added classification head:
-    o	GlobalAveragePooling
-    o	Dense 256 → BN → Dropout(0.5)
-    o	Dense 128 → BN → Dropout(0.3)
-    o	Dense 1 (Sigmoid)
+-	MobileNetV2 (ImageNet pretrained)
+-	Added classification head:
+    -	GlobalAveragePooling
+    -	Dense 256 → BN → Dropout(0.5)
+    -	Dense 128 → BN → Dropout(0.3)
+    -	Dense 1 (Sigmoid)
 3. Training Strategy
-•	Stage 1: Train only top layers
-•	Stage 2: Unfreeze last ~50 layers and fine-tune
-•	Uses callbacks:
-    o	ModelCheckpoint
-    o	EarlyStopping
-    o	ReduceLROnPlateau
+-	Stage 1: Train only top layers
+-	Stage 2: Unfreeze last ~50 layers and fine-tune
+-	Uses callbacks:
+    -	ModelCheckpoint
+    -	EarlyStopping
+    -	ReduceLROnPlateau
 4. Evaluation Metrics
-•	Accuracy
-•	Precision
-•	Recall
-•	AUC
-•	Confusion Matrix
-•	ROC Curve
+-	Accuracy
+-	Precision
+-	Recall
+-	AUC
+-	Confusion Matrix
+-	ROC Curve
 
 📊 Output Visualizations
 Generated automatically in ```visualizations/```:
