@@ -110,15 +110,15 @@ The script will automatically:
 -	Confusion Matrix
 -	ROC Curve
 
-📊 Output Visualizations
+## 📊 Output Visualizations
 Generated automatically in ```visualizations/```:
-•	samples.png – 9 sample images
-•	training_history.png – accuracy, loss, precision, recall graphs
-•	confusion_matrix.png
-•	roc_curve.png
-•	predictions.png – predicted vs actual labels
+-	samples.png – 9 sample images
+-	training_history.png – accuracy, loss, precision, recall graphs
+-	confusion_matrix.png
+-	roc_curve.png
+-	predictions.png – predicted vs actual labels
 
-🔍 Prediction After Training
+## 🔍 Prediction After Training
 Load the trained model and classify new images:
 ```
 model = tf.keras.models.load_model('models/malaria_detector_final.h5')
@@ -136,18 +136,18 @@ def predict(image_path):
         return f"Uninfected ({pred * 100:.1f}% confidence)"
 ```
 
-📜 About
+## 📜 About
 
 This project uses deep learning to automate malaria diagnosis using thin blood smear images.
-•	Dataset: TensorFlow Datasets – Malaria
-•	Model: MobileNetV2 with fine-tuning
-•	Goal: Support medical diagnosis with fast, reliable predictions
+-	Dataset: TensorFlow Datasets – Malaria
+-	Model: MobileNetV2 with fine-tuning
+-	Goal: Support medical diagnosis with fast, reliable predictions
 
-⭐ Resources
+## ⭐ Resources
 
-•	TensorFlow Datasets
-•	MobileNetV2 Research Paper
-•	Keras API Documentation
+-	TensorFlow Datasets
+-	MobileNetV2 Research Paper
+-	Keras API Documentation
 
 
 
