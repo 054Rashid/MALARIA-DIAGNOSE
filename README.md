@@ -3,6 +3,18 @@ Malaria Cell Image Classification using MobileNetV2
 A high-accuracy deep learning system for detecting Parasitized and Uninfected malaria-infected blood smear images using TensorFlow, MobileNetV2, and Transfer Learning.
 This project loads the Malaria dataset from TensorFlow Datasets (TFDS), preprocesses it, trains a CNN model, fine-tunes it, evaluates performance, and generates visualizations such as confusion matrix, ROC curve, and prediction samples.
 
+<div align="center">
+
+
+
+
+
+
+
+
+</div>
+
+
 
 🚀 Features
 
