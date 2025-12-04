@@ -25,13 +25,13 @@ This project loads the Malaria dataset from TensorFlow Datasets (TFDS), preproce
     -	Stage 1 – Train top layers
     -	Stage 2 – Fine-tune deeper layers
 -	Generates:
-    o	Confusion Matrix
-    o	ROC Curve
-    o	Accuracy/Loss graphs
-    o	Prediction visualization
+    -	Confusion Matrix
+    -	ROC Curve
+    -	Accuracy/Loss graphs
+    -	Prediction visualization
 -	Auto-saves:
-    o	best_model.h5
-    o	malaria_detector_final.h5
+    -	best_model.h5
+    -	malaria_detector_final.h5
 -	Fully compatible with Google Colab and local GPU
 
 
@@ -56,17 +56,17 @@ Malaria-Diagnosis/
 
 ```
 
-🛠️ Requirements
+## 🛠️ Requirements
 Install dependencies:
 ```
 pip install tensorflow tensorflow-datasets numpy matplotlib seaborn scikit-learn
 ```
 Recommended:
-•	GPU support (Colab / CUDA)
-•	Python 3.8+
+-	GPU support (Colab / CUDA)
+-	Python 3.8+
 
 
-🧪 How to Run the Project
+## 🧪 How to Run the Project
 
 Step 1: Run the Script
 Execute:
@@ -74,12 +74,12 @@ Execute:
 python malaria_diagnosis.py
 ```
 The script will automatically:
-•	Load & preprocess the dataset
-•	Split into train/val/test
-•	Build and train MobileNetV2
-•	Fine-tune deeper layers
-•	Save best/final models
-•	Generate visualizations
+-	Load & preprocess the dataset
+-	Split into train/val/test
+-	Build and train MobileNetV2
+-	Fine-tune deeper layers
+-	Save best/final models
+-	Generate visualizations
 
 📘 What Happens Inside the Script?
 1. Data Pipeline
