@@ -22,8 +22,8 @@ This project loads the Malaria dataset from TensorFlow Datasets (TFDS), preproce
 -	Balanced image augmentation (flip, brightness, contrast)
 -	Transfer Learning using MobileNetV2 (ImageNet weights)
 -	Two-stage optimized training:
-    o	Stage 1 – Train top layers
-    o	Stage 2 – Fine-tune deeper layers
+--	Stage 1 – Train top layers
+--	Stage 2 – Fine-tune deeper layers
 -	Generates:
     o	Confusion Matrix
     o	ROC Curve
