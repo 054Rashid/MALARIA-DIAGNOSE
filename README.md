@@ -132,6 +132,7 @@ This project uses deep learning to automate malaria diagnosis using thin blood s
 •	Goal: Support medical diagnosis with fast, reliable predictions
 
 ⭐ Resources
+
 •	TensorFlow Datasets
 •	MobileNetV2 Research Paper
 •	Keras API Documentation
